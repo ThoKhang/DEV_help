@@ -1,12 +1,5 @@
 <?php
 
-//     NỐI CHUỖI
-$a = "Nguyen Van An";
-$e = "Tran Thi Nhu Ngoc";
-$ea = $a . " " . $e;
-echo $ea;
-echo "<br>";
-
 //      CẮT CHUỖI THÀNH MẢNG, NGĂN CÁCH BỞI KÝ TỰ
 $traicay = "cam,quyt,xoai,oi,coc";
 $rotraicay = explode(",", $traicay);
